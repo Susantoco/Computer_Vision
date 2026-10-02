@@ -14,7 +14,7 @@ def rgb_to_gray(image_path):
 
 if __name__ == "__main__":
     img_gray = rgb_to_gray(path)
-    save_image(img_gray, "strawberry_gray.jpg", OUTPUT_PATH)
+    save_image(img_gray, "strawberry_rgb_to_gray.jpg", OUTPUT_PATH)
     cv2.imshow('Grayscale', img_gray)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
