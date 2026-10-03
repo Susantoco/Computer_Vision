@@ -20,5 +20,13 @@ if __name__ == "__main__":
     cv2.imshow('Blue Channel', b)
     cv2.imshow('Green Channel', g)
     cv2.imshow('Red Channel', r)
+    print("B channel:")
+    print(b)
+
+    print("G channel:")
+    print(g)
+
+    print("R channel:")
+    print(r)
     cv2.waitKey(0)
     cv2.destroyAllWindows()

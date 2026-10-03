@@ -1,3 +1,9 @@
+## Setup
+Install dependencies:
+```
+pip install -r requirements.txt
+```
+
 ## Run source
 ### Part 1: Color
 Convert RGB to grayscale:
